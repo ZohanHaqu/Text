@@ -1,0 +1,16 @@
+﻿<Window x:Class="TextBookMaker.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBookMaker"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800"
+        ResizeMode="NoResize" WindowStyle="SingleBorderWindow">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="442" VerticalAlignment="Top" Width="800" Source="/Untitled458_20250228145456.png"/>
+        <Label Content="Text About Wizard" HorizontalAlignment="Left" Margin="50,35,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontWeight="Bold" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="225,119,0,0" TextWrapping="Wrap" Text="Text Version 1.0, A simple book maker" VerticalAlignment="Top" Foreground="Black" FontFamily="Tahoma"/>
+        <Image HorizontalAlignment="Left" Height="350" Margin="0,84,0,0" VerticalAlignment="Top" Width="492" Source="/Untitled457_20250228145411.png"/>
+    </Grid>
+</Window>
